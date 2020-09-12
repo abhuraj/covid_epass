@@ -44,7 +44,7 @@ import static android.Manifest.permission.CAMERA;
 
 public class MainActivity extends AppCompatActivity implements  EasyPermissions.PermissionCallbacks{
 
-    private static final String TAG = "act_Main"/*MainActivity.class.getSimpleName()*/;
+    private static final String TAG = "act_Main";
     ActivityMainBinding mainBinding;
     String baseUrl = "https://covid19.mhpolice.in/";
     WebView webview1;
